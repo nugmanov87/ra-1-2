@@ -21,7 +21,7 @@ class ShopItemClass extends React.Component {
         <div className="purchase-info">
           <div className="price">
             {item.currency}
-            {item.price}
+            {item.price.toFixed(2)}
           </div>
           <button>Добавить в корзину</button>
         </div>
